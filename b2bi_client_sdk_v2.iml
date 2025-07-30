@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/bcmail-jdk14-146.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/bcprov-jdk14-146.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/CFCACertKitJS.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/com.sun.jna.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/commons-logging-1.1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/edu.emory.mathcs.backport.java.util.concurrent.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/ISFJ_v2_0_139_15_BAISC_JDK15.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/netsign18.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/netsignderutil.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.apache.commons.configuration.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/org.apache.commons.httpclient.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/PKIBASE.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="bcmail-jdk14-146.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/bcmail-jdk14-146.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="bcprov-jdk14-146.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/bcprov-jdk14-146.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="CFCACertKitJS.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/CFCACertKitJS.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="com.sun.jna.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/com.sun.jna.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="commons-logging-1.1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-logging-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="dom4j-1.6.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="edu.emory.mathcs.backport.java.util.concurrent.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/edu.emory.mathcs.backport.java.util.concurrent.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="ISFJ_v2_0_139_15_BAISC_JDK15.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/ISFJ_v2_0_139_15_BAISC_JDK15.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="netsign18.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/netsign18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="netsignderutil.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/netsignderutil.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="org.apache.commons.configuration.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.apache.commons.configuration.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="org.apache.commons.httpclient.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/org.apache.commons.httpclient.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="PKIBASE.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/PKIBASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/infoseckeytool.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="jsch-0.1.55" level="project" />
+  </component>
+</module>

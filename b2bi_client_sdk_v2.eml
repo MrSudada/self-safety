@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.8" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="bcmail-jdk14-146.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bcmail-jdk14-146.jar!/"/>
+	</lib>
+	<lib name="bcprov-jdk14-146.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/bcprov-jdk14-146.jar!/"/>
+	</lib>
+	<lib name="CFCACertKitJS.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/CFCACertKitJS.jar!/"/>
+	</lib>
+	<lib name="com.sun.jna.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/com.sun.jna.jar!/"/>
+	</lib>
+	<lib name="commons-logging-1.1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/"/>
+	</lib>
+	<lib name="dom4j-1.6.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/"/>
+	</lib>
+	<lib name="edu.emory.mathcs.backport.java.util.concurrent.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/edu.emory.mathcs.backport.java.util.concurrent.jar!/"/>
+	</lib>
+	<lib name="ISFJ_v2_0_139_15_BAISC_JDK15.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/ISFJ_v2_0_139_15_BAISC_JDK15.jar!/"/>
+	</lib>
+	<lib name="netsign18.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/netsign18.jar!/"/>
+	</lib>
+	<lib name="netsignderutil.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/netsignderutil.jar!/"/>
+	</lib>
+	<lib name="org.apache.commons.configuration.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/org.apache.commons.configuration.jar!/"/>
+	</lib>
+	<lib name="org.apache.commons.httpclient.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/org.apache.commons.httpclient.jar!/"/>
+	</lib>
+	<lib name="PKIBASE.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/PKIBASE.jar!/"/>
+	</lib>
+</component>

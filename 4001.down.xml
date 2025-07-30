@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<input>
+      <field dataType="X" description="Account" minlength="14" maxlength="14" id="Account" must="true"></field>
+      <field dataType="X" description="CcyCode" minlength="3" maxlength="11" id="CcyCode" must="true" ></field>
+</input>
