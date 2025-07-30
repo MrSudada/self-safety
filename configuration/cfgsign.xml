@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<root> 
+  <!-- 签名选项 -->  
+  <signopt>
+    <!--<signMode>RSA_SOFT</signMode>-->
+    <!--<pfxPath>D:\b2bic_20171010\b2bic\cert\testrsa2017_1_8.pfx</pfxPath>-->
+
+    <signMode>RSA_SOFT</signMode>
+    <pfxPath>cert/testrsa20250401.pfx</pfxPath>
+    <certDn></certDn>
+    <pfxPwd>txHVlRzyBBmbdtlOFw0t0Q==</pfxPwd>
+    <caCertPath>cert/ebankprd.p7b</caCertPath>
+    <crlPath/>
+    <checkBankSign>true</checkBankSign>
+    <bankCertDN>CN=SDB@919218537_9-800-011@2000000009@02109161,OU=Enterprises,OU=SDB,O=SDBCA,C=CN</bankCertDN>
+  </signopt>
+  
+  <!-- 上行交易全部签名 -->
+  <isUpSignAllTx>true</isUpSignAllTx>
+</root>

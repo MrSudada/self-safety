@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root> 
+  <servers desc=""> 
+    <server id="bankOut" desc="上行银行服务"> 
+      <protocol>https</protocol>  
+      <ips>my-uat1.orangebank.com.cn</ips>
+      <ports>462</ports>
+      <!--<ips>127.0.0.1</ips>-->
+      <!--<ports>39999</ports>-->
+      <timeout>60000</timeout>  
+      <http> 
+        <url>/bankreq</url>  
+        <statusOk>200;201;203</statusOk>  
+      </http>  
+      <ssl> 
+        <algorithm>SSL</algorithm>  
+        <storePath>cert/SDBTESTCA.store</storePath>  
+        <storeType>JKS</storeType>  
+        <storePwd>qMFK5ATGK4s=</storePwd>  
+        <same>true</same> 
+      </ssl> 
+    </server> 
+  </servers>
+  <ftpServers>
+    <server id="bankFtp">
+      <protocol>SFTP</protocol>
+      <hostname>b2bi-sftp.fat001.qa.pab.com.cn</hostname>
+      <port>5022</port>
+      <ftpname>pab2biuser</ftpname>
+      <!--ftppwd>gateway</ftppwd-->
+      <ftppwd>aqXH4BClobOTK321uAit4HhCf3bQU9VF2yKF0G5QH/s=</ftppwd>
+      <defaultDir>/afe_ftp/01001034300004537000/</defaultDir>
+      <soTimeout>60000</soTimeout>
+      <encoding>UTF-8</encoding>
+      <!-- ftp上传和下载异常重试次数，默认1 -->
+      <exceptionRetryCts>3</exceptionRetryCts>
+      <!-- ftp上传和下载异常重试间隔ms，默认1000ms -->
+      <retryDelayTime>1000</retryDelayTime>
+    </server>
+  </ftpServers>
+  <checkBankCert>false</checkBankCert>   
+  <bankTxEnvIndex>2</bankTxEnvIndex>  
+  <bankFtpEnvIndex>2</bankFtpEnvIndex> 
+</root>
